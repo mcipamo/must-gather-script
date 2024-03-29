@@ -17,7 +17,7 @@ echo "Welcome!" $user
 sleep 3
 clear
 #OCM Login
-ocm backplane login $cid 
+ocm backplane login $cid 2> /dev/null 
 
 #Cluster name description
 CLUSTER=$(ocm describe cluster $cid |grep  Name |grep -v Display |awk '{print $2}')
