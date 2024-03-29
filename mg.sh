@@ -62,7 +62,9 @@ echo "=          This is your must-gather manifest:            ="
 echo "=========================================================="
 cat  must-gather.yaml
 
+echo "================================"
 read -p "Press enter to continue"
+echo "================================"
 
 clear
 #Creating must-gather pods
